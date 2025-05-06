@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # Set your API key here
-os.environ["GOOGLE_API_KEY"] = "xxxxxxxxxxxxxxxxxxxxxxxx"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCc4adGJi7qt0n0FZgRqlXsz5Rds-xGApc"
 
 # Configure the Gemini model
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -16,6 +16,7 @@ Include:
 - Setting working directory
 - Adding source code
 - Running the application
+- Add a multi stage docker build
 """
 
 def generate_dockerfile(language):
