@@ -43,7 +43,13 @@ A GenAI powered tool that generates optimized Dockerfiles based on programming l
 3. **Run the Application**
    ```bash
    python3 generate_dockerfile.py
-   ```
+
+##for Hosted##
+I used Google AI Studio to generate API keys and mentioned that key in the generate_dockerfile_gemini.py file
+
+-> Run " pip3 install google.generativeai "
+
+and then run " python3 generate_dockerfile_gemini.py "
 
 ## 💡 How It Works
 
